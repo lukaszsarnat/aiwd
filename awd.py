@@ -126,7 +126,7 @@ for i in range(len(region)):
 print(listaRegionow)
 
 #Wykres #4
-podpisyRegion=["AANZ","CAEE","EA","LAAC","MEANA","NA","SEA","SA","SSA"]
+podpisyRegion=["AANZ","CAEE","EA","LAAC","MEANA","NA","SEA","SA","SSA","WE"]
 iloscPowyzejMediany=[listaRegionow["Australia and New Zealand"],listaRegionow["Central and Eastern Europe"],listaRegionow["Eastern Asia"],listaRegionow["Latin America and Caribbean"],listaRegionow["Middle East and Northern Africa"],listaRegionow["North America"],listaRegionow["Southeastern Asia"],listaRegionow["Southern Asia"],listaRegionow["Sub-Saharan Africa"],listaRegionow["Western Europe"]]
 plt.bar(podpisyRegion,iloscPowyzejMediany)
 plt.xlabel("Region")
